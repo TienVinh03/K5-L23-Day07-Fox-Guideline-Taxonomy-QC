@@ -28,7 +28,10 @@
 - Những vấn đề cần mang vào calibration: biên box xe chở xe ở `img_002`, cách xử lý hàng rời trên xe ba bánh, người đứng sát nhau, ba box đang có cờ review và hai cảnh báo dưới ngưỡng 20 px. Đây là danh sách cần kiểm tra, chưa phải bất đồng đã được đo với người khác.
 - Tôi cho rằng quyết định quan trọng là thống nhất một cách vẽ cho cùng loại ca và ghi thành quy tắc có ví dụ; kết quả họp thực tế và phiên bản v1.1 sẽ bổ sung sau khi nhóm thực hiện.
 
-## 5. Bài học
+## 5. Dùng AI
+- Không dùng AI để gán nhãn .
+
+## 6. Bài học
 
 - Lần sau tôi sẽ chốt sớm ví dụ về xe chở xe, xe ba bánh chở hàng và đám đông, đặc biệt ranh giới giữa kết cấu xe với hàng rời, để giảm lưỡng lự trong lúc gán.
 - Tôi cần giữ riêng bản cá nhân và bản thống nhất, dùng đúng ngưỡng thuộc tính của phiên bản đang áp dụng; phân biệt kết quả kiểm tra cấu trúc với kết quả QC bằng mắt.
