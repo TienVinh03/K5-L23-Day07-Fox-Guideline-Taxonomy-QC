@@ -1,4 +1,4 @@
-# Day 07 Lab — Guideline, Taxonomy & QC
+# Day 07 Lab — Nhóm Fox: 101 - Lê Văn Khởi, 102 - Vũ Hoàng Nam, 103 - Vũ Tiến Vinh
 
 **Nhóm 2–5 người · 4 giờ · 40 ảnh đường phố châu Á · gán box bằng CVAT**
 
