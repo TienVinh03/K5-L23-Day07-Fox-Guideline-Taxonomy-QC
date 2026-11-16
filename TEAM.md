@@ -24,7 +24,7 @@ Danh sách trên phải khớp dòng tiêu đề của `README.md` (đã đổi 
 ## Kết quả tóm tắt (điền cuối bài)
 
 - Số thành viên / số lần gán mỗi ảnh (K): 3 / 2
-- IAA trước calibration: IoU trung bình … , đồng thuận lớp … % (mẫu số: …)
-- Số ảnh phải calibration: … / 40
-- Tỉ lệ lỗi sau calibration: … % theo ảnh (…/…), … % theo đối tượng (…/…)
-- **Quyết định:** Release / Hold / Rework — lý do một dòng: …
+- IAA trước calibration: IoU trung bình 0.857 , đồng thuận lớp 97.5 % (mẫu số: 321 cặp box ghép)
+- Số ảnh phải calibration: 35 / 40
+- Tỉ lệ lỗi sau calibration: 0.0 % theo ảnh (0/40), 0.0 % theo đối tượng (0/512)
+- **Quyết định:** Release — lý do một dòng: Tỉ lệ ảnh lỗi 0.0% <= 2%, không có lỗi hệ thống, IAA đạt chuẩn IoU 0.857 và Class agreement 97.5%.
