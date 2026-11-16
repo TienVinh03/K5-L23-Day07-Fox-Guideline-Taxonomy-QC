@@ -1,0 +1,90 @@
+{
+  "taxonomy_version": "v1.0",
+  "thresholds": {
+    "iaa_iou": 0.85,
+    "iaa_class": 0.95,
+    "match_iou": 0.5
+  },
+  "n_annotators": 3,
+  "n_images_compared": 40,
+  "images_with_lt2_annotators": [],
+  "overall": {
+    "n_images": 40,
+    "n_matched_pairs": 321,
+    "n_unmatched_a": 91,
+    "n_unmatched_b": 100,
+    "n_skipped_in_ignore": 0,
+    "mean_iou": 0.8566422352205676,
+    "class_agreement": 0.9750778816199377,
+    "attr_agreement": {
+      "occluded_level": 0.48598130841121495,
+      "truncated": 0.9158878504672897
+    },
+    "n_below_iou_thr": 98,
+    "iou_pass": true,
+    "class_pass": true,
+    "pass": true
+  },
+  "per_pair": {
+    "101|102": {
+      "n_images": 13,
+      "n_matched_pairs": 94,
+      "n_unmatched_a": 60,
+      "n_unmatched_b": 2,
+      "n_skipped_in_ignore": 0,
+      "mean_iou": 0.8463669813339043,
+      "class_agreement": 0.9893617021276596,
+      "attr_agreement": {
+        "occluded_level": 0.40425531914893614,
+        "truncated": 0.8829787234042553
+      },
+      "n_below_iou_thr": 28,
+      "iou_pass": false,
+      "class_pass": true,
+      "pass": false
+    },
+    "101|103": {
+      "n_images": 13,
+      "n_matched_pairs": 155,
+      "n_unmatched_a": 20,
+      "n_unmatched_b": 50,
+      "n_skipped_in_ignore": 0,
+      "mean_iou": 0.86798984803348,
+      "class_agreement": 0.9741935483870968,
+      "attr_agreement": {
+        "occluded_level": 0.5096774193548387,
+        "truncated": 0.9419354838709677
+      },
+      "n_below_iou_thr": 45,
+      "iou_pass": true,
+      "class_pass": true,
+      "pass": true
+    },
+    "102|103": {
+      "n_images": 14,
+      "n_matched_pairs": 72,
+      "n_unmatched_a": 11,
+      "n_unmatched_b": 48,
+      "n_skipped_in_ignore": 0,
+      "mean_iou": 0.8456282613225812,
+      "class_agreement": 0.9583333333333334,
+      "attr_agreement": {
+        "occluded_level": 0.5416666666666666,
+        "truncated": 0.9027777777777778
+      },
+      "n_below_iou_thr": 25,
+      "iou_pass": false,
+      "class_pass": true,
+      "pass": false
+    }
+  },
+  "n_issues": 478,
+  "issues_by_type": {
+    "iou_thap": 98,
+    "sai_thuoc_tinh": 176,
+    "bo_sot_thua": 191,
+    "co_can_review": 5,
+    "sai_lop": 8
+  },
+  "n_flagged_images": 35
+}
